@@ -1,0 +1,46 @@
+:root {
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  --bg-black: #3A3A3A;
+  --color-text: #3A3A3A;
+  --bg-danger: #FF0E00;
+  --bg-danger: #FF0E00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+table,
+td,
+th,
+input,
+p,
+html,
+button {
+  font-family: Nunito;
+}
+
+
+.button {
+  border: none;
+  padding: 0.7rem 2rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+
+  &--black {
+    background-color: var(--bg-black);
+    color: #fff;
+  }
+
+  &--danger {
+    background: var(--bg-danger);
+    color: #fff;
+  }
+}

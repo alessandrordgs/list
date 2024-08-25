@@ -1,0 +1,13 @@
+.header__container {
+  overflow-y: hidden;
+  padding: 2rem 2rem 0.5rem 2rem;
+  &__title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  hr {
+    width: 100%;
+    margin-top: 0.8rem;
+  }
+} 
